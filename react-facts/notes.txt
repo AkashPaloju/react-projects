@@ -1,0 +1,30 @@
+React is :
+1. composable(can be divided into components)
+2. declarative()
+
+ARRAY AS STATE VARIABLE
+  const [things, setThings] = useState(["T1 ", "T2 "]);
+  const spanned = things.map(thing => <span>{thing}</span>)
+  function addThing() {
+    setThings(prevThings => {
+      return [...prevThings, `T${prevThings.length + 1} `]
+    })
+  }
+
+
+COMPLEX STATE OBJECT
+
+  const [contact, setContact] = useState({
+    fName: "John",
+    lName: "Doe",
+    email: "abcd@gmail.com",
+    isFavorite: false,
+  });
+  function toggleFavorite() {
+    setContact(prevContact => {
+      return {
+        ...prevContact,
+        isFavorite: !prevContact.isFavorite,
+      }
+    })
+  }

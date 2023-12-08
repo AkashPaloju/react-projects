@@ -1,0 +1,100 @@
+import swimmer from "./images/swimmer.png";
+import wedding from "./images/wedding-photography.png";
+import bike from "./images/mountain-bike.png";
+
+const data = [
+  { 
+    id : 1,
+    img : swimmer ,
+    rating : 5.0,
+    viewCount : 6 ,
+    country : "USA" ,
+    info :"Life lessons with Katie Zaferes",
+    fee : 136,
+    quantity : 1,
+  },
+  {
+    id : 2,
+    img : wedding ,
+    rating : 5.0,
+    viewCount : 30 ,
+    country : "USA" ,
+    info :"Learn wedding photography",
+    fee : 125,
+    quantity : 0,
+  },
+  {
+    id : 3,
+    img : bike ,
+    rating : 4.8,
+    viewCount : 2 ,
+    country : "USA" ,
+    info :"Group Mountain Biking",
+    fee : 150,
+    quantity : 2,
+  },
+  {
+    id : 4,
+    img : swimmer ,
+    rating : 5.0,
+    viewCount : 6 ,
+    country : "USA" ,
+    info :"Life lessons with Katie Zaferes",
+    fee : 136,
+    quantity : 1,
+  },
+  {
+    id : 5,
+    img : wedding ,
+    rating : 5.0,
+    viewCount : 30 ,
+    country : "USA" ,
+    info :"Learn wedding photography",
+    fee : 125,
+    quantity : 0,
+  },
+  {
+    id : 6,
+    img : bike ,
+    rating : 4.8,
+    viewCount : 2 ,
+    country : "USA" ,
+    info :"Group Mountain Biking",
+    fee : 150,
+    quantity : 2,
+  },
+  {
+    id : 7,
+    img : swimmer ,
+    rating : 5.0,
+    viewCount : 6 ,
+    country : "USA" ,
+    info :"Life lessons with Katie Zaferes",
+    fee : 136,
+    quantity : 10,
+  },
+  {
+    id : 8,
+    img : wedding ,
+    rating : 5.0,
+    viewCount : 30 ,
+    country : "USA" ,
+    info :"Learn wedding photography",
+    fee : 125,
+    quantity : 0,
+  },
+  {
+    id : 9,
+    img : bike ,
+    rating : 4.8,
+    viewCount : 2 ,
+    country : "USA" ,
+    info :"Group Mountain Biking",
+    fee : 150,
+    quantity : 20,
+  },
+
+
+]
+
+export default data;
